@@ -65,7 +65,7 @@ textarea {
 }
 
 .html-output {
-
+    padding: 10px;
 }
 
 .html-output-info {
@@ -88,30 +88,26 @@ textarea {
     height: 20px;
 }
 
-/* Style all font awesome icons */
 .fa {
     padding: 14px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-  }
+}
   
-/* Add a hover effect if you want */
 .fa:hover {
-opacity: 0.7;
+    opacity: 1;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-github {
-background: black;
-color: white;
+    background: black;
+    color: white;
+    opacity: 0.5;
 }
 
-/* Twitter */
 .fa-twitter {
-background: #55ACEE;
-color: white;
+    background: #55ACEE;
+    color: white;
+    opacity: 0.5;
 }
